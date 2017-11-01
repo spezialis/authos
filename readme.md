@@ -90,6 +90,7 @@ Check also this links:
 - [Dotstar LED](https://learn.adafruit.com/neopixel-and-glass-pebble-floor/neopixel-assembly?view=all#step-2)
 - [Creating FastLED Color Palettes](https://learn.adafruit.com/twinkling-led-parasol/assembly)
 - [FastLed Library](http://fastled.io/)
+- [FastLed Library Github](https://github.com/FastLED/FastLED)
 
 # Credits
 AUTHOS<br>
