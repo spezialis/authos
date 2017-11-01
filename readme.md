@@ -40,9 +40,9 @@
 
 ### To Buy
 - [ ] [Adafruit DotStar Digital LED Strip - Black 30 LED - Per Meter - BLACK](https://www.adafruit.com/product/2237)
-- [ ] [4-pin JST SM Plug + Receptacle Cable Set](https://www.adafruit.com/product/578)
-- [ ] [FEMALE DC POWER ADAPTER - 2.1MM JACK TO SCREW TERMINAL BLOCK](https://www.adafruit.com/product/368)
-- [ ] [5V 10A SWITCHING POWER SUPPLY](https://www.adafruit.com/product/658)
+- [ ] [4-pin JST SM Plug + Receptacle Cable Set](http://www.robotshop.com/en/4-pin-jst-sm-cable-set.html)
+- [ ] [Female Dc Power Adapter - 2.1Mm Jack To Screw Terminal Block](https://www.adafruit.com/product/368)
+- [ ] [5V 10A Switching Power Supply](https://www.adafruit.com/product/658)
 
 ## Important
 ### Distributing Power
