@@ -23,7 +23,7 @@
 
 ## Parts and Tools
 ### Parts
-- Arduino UNO or Mega
+- Arduino UNO
 - Stranded silicone-cover wire
 - Heat shrink tubing
 - Black adhesive tape
@@ -35,7 +35,7 @@
 	- Soldering stand
 	- Solder spool
 	- Holder
-	- Wire strippers
+- Wire strippers
 - Computer
 
 ### To Buy
@@ -59,11 +59,37 @@ To estimate power supply needs, multiply the number of pixels by 20, then divide
 60 NeoPixels × 60 mA ÷ 1,000 = 3.6 Amps minimum
 
 ## Maybe
-Add a
+Add a motion sensor to as an on/off switch and to start looping through animations:
 - [PIR motion sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview) or
-- [X-Band motion detector](https://www.parallax.com/product/32213) or
-- ...
-to activate the vitrine when someone is near it.
+- [X-Band motion sensor](https://www.parallax.com/product/32213)
+
+## Hardware
+### Board-to-DotStar connections
+The board must be connected to the "in" end of the LED strip.  Data flows one way through the strip, from "in" to "out".
+
+| Arduino  	| DotStar 			|
+| --				|	-- 						|
+| 11 				| DI (Data In) 	|
+| 13  			| CI (Clock In) |
+| + or 5V  	| + or 5V  			|
+| GND  			| GND 					|
+
+### DotStar-to-Power connections
+The power supply will be connected in the middle of the strip. Putting it in the middle will minimize the number of pixels the power needs to flow through.
+
+| LED Strip "out" connector | LED Strip "in" connector |
+| -- 												| -- 											 |
+| LED Strip + Wire  				| Screw Terminal +  			 |
+| LED Strip - Wire 					| Screw Terminal -  			 |
+
+![](https://learn.adafruit.com/assets/45036)
+![](https://learn.adafruit.com/assets/45037)
+
+# References
+Check also this links:
+- [Dotstar LED](https://learn.adafruit.com/neopixel-and-glass-pebble-floor/neopixel-assembly?view=all#step-2)
+- [Creating FastLED Color Palettes](https://learn.adafruit.com/twinkling-led-parasol/assembly)
+- [FastLed Library](http://fastled.io/)
 
 # Credits
 AUTHOS<br>
