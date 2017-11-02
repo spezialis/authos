@@ -85,6 +85,9 @@ The power supply will be connected in the middle of the strip. Putting it in the
 ![](https://learn.adafruit.com/assets/45036)
 ![](https://learn.adafruit.com/assets/45037)
 
+# Todo
+- [ ] Test the best distance between the LED and the window (Use some semi-transparent paper)
+
 # References
 Check also this links:
 - [Dotstar LED](https://learn.adafruit.com/neopixel-and-glass-pebble-floor/neopixel-assembly?view=all#step-2)
