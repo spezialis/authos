@@ -28,7 +28,10 @@
 ## Timer
 Night ON illumination and day OFF
 
+![](https://s3.amazonaws.com/learn-production/guides/images/000/001/231/medium800/thump.jpg?1454534952)
 
+- [Adafruit DS3231 Precision RTC Breakout](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/)
+- [Arduino Time library](https://playground.arduino.cc/Code/Time)
 
 ## LEDs Instructions
 ![](https://cdn-learn.adafruit.com/assets/assets/000/021/922/medium800/leds_dotstar-banner.jpg?1419375063)
