@@ -4,12 +4,13 @@
 [Lumères Festival 2017](http://www.festivallausannelumieres.ch/)
 
 ## Parts and Tools
-### Parts
+### Parts I
 - Arduino UNO
 - Stranded silicone-cover wire
 - Heat shrink tubing
 - Black adhesive tape
 
+### Parts II
 - 557 LEDs
 - 32 strips cuts
 	- 6 strips cuts for distributing the power
