@@ -8,7 +8,7 @@
 - Arduino UNO
 - Stranded silicone-cover wire
 - Heat shrink tubing
-- Black adhesive tape
+- Colored adhesive tape
 
 ### Parts II
 - 557 LEDs
@@ -31,8 +31,19 @@ Night ON illumination and day OFF
 
 ![](https://s3.amazonaws.com/learn-production/guides/images/000/001/231/medium800/thump.jpg?1454534952)
 
-- [Adafruit DS3231 Precision RTC Breakout](https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/)
+- [Adafruit DS1307 Real Time Clock](https://learn.adafruit.com/ds1307-real-time-clock-breakout-board-kit/assembly?view=all)
 - [Arduino Time library](https://playground.arduino.cc/Code/Time)
+- [RTC library](https://github.com/adafruit/RTClib)
+
+#### Arduino UNO-to-RTC connections
+The board must be connected to the "in" end of the LED strip.  Data flows one way through the strip, from "in" to "out".
+
+| Arduino  	| DotStar 			|
+| --				|	-- 						|
+| A5 				| SCL					 	|
+| A4  			| SDA						|
+| + or 5V  	| + or 5V  			|
+| GND  			| GND 					|
 
 ## LEDs Instructions
 ![](https://cdn-learn.adafruit.com/assets/assets/000/021/922/medium800/leds_dotstar-banner.jpg?1419375063)
@@ -52,12 +63,13 @@ Night ON illumination and day OFF
 - Pixel pitch: 33.3mm / 1.3" between LEDs
 
 ### To Buy
-- [ ] [Adafruit DotStar Digital LED Strip - Black 30 LED - Per Meter - BLACK](https://www.adafruit.com/product/2237) x 20
+- [x] [Adafruit DotStar Digital LED Strip - Black 30 LED - Per Meter - BLACK](https://www.adafruit.com/product/2237) x 20
 - [ ] [4-pin JST SM Plug + Receptacle Cable Set](https://www.amazon.de/gp/product/B01D9JD4ZG/ref=ox_sc_act_title_1?smid=AGJ2TI2R2YFK8&psc=1) x 26
-- [ ] [2-pin JST SM Plug + Receptacle Cable Set](http://www.robotshop.com/en/2-pin-jst-sm-cable-set.html) x 12
-- [ ] [Female Dc Power Adapter - 2.1Mm Jack To Screw Terminal Block](https://www.adafruit.com/product/368) x 2
-- [ ] [5V 10A Switching Power Supply](https://www.adafruit.com/product/658) x 2
-- [ ] ~~capacitor (1000 µF, 6.3V or higher)~~
+- [x] [2-pin JST SM Plug + Receptacle Cable Set](http://www.robotshop.com/en/2-pin-jst-sm-cable-set.html) x 12
+- [x] [Female Dc Power Adapter - 2.1Mm Jack To Screw Terminal Block](https://www.adafruit.com/product/368) x 2
+- [x] [5V 10A Switching Power Supply](https://www.adafruit.com/product/658) x 2
+- [ ] capacitor (1000 µF, 6.3V or higher) x 2
+- [ ] [Adafruit DS1307 Real Time Clock](https://www.adafruit.com/product/3296#tutorials) x 2
 
 ### Important
 #### Distributing Power
@@ -108,7 +120,7 @@ Add a motion sensor to as an on/off switch and to start looping through animatio
 - [X-Band motion sensor](https://www.parallax.com/product/32213)
 
 # Todo
-- [ ] Test the best distance between the LED and the window (Use some semi-transparent paper)
+- [x] Test the best distance between the LED and the window (Use some semi-transparent paper)
 
 # Credits
 AUTHOS<br>
